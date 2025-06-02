@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+.header{
+    background-color: #FAF9F5;
+}
+.nav img{
+    height: 100px;
+}
+
+.text-div{
+    top: 100px;
+    left: 35px;
+}
+
+/* contact section  */
+.contact-section {
+    background-image: url(background/noise-pattern.jpg);
+}
+
+/* Subscribe Secion  */
+
+.subscribe{
+    height: 400px;
+    background-image: url(background/h1-rev-img-02.jpg);
+    background-size: cover;
+
+}
+
+/* Discover Deals Section  */
+
+.discover-deals {
+    height: 500px;
+    background-image: url(background/h1-img-03.jpg);
+    background-size: cover;
+}
+
+.deal-div{
+    top: 130px;
+}
+
+.video-icon{
+    font-size: 20px;
+    top: 50px;
+    left: 140px;
+}
+
+.brand{
+    top: 10px;
+}
+
+.destination-div{
+    top:430px;
+    left: 30px;
+}
+
+@media(min-width:768px){
+
+.text-div{
+    top: 120px;
+    left: 55px;
+}
+.video-icon{
+    font-size: 50px;
+    top: 100px;
+    left: 350px;
+}
+.destination-div{
+    top: 500px;
+    left: 30px;
+}
+
+}
+
+@media(min-width:992px){
+
+    .text-div{
+    top: 110px;
+    left: 40px;
+}
+
+.video-icon{
+    font-size: 100px;
+    top: 120px;
+    left: 470px;
+}
+
+.destination-div{
+    top: 315px;
+    left: 30px;
+}
+
+}
